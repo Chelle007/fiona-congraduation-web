@@ -8,6 +8,7 @@ import { SpinningTextComponent } from "@/components/SpinningTextComponent";
 import { WarpBackground } from "@/components/magicui/warp-background";
 import { AnimatedGridPattern } from "@/components/magicui/animated-grid-pattern";
 import { Ripple } from "@/components/magicui/ripple";
+import { TypingAnimation } from "@/components/magicui/typing-animation";
 
 export default function Page() {
   return (
@@ -26,10 +27,13 @@ export default function Page() {
           <ScratchImage />
 
           <HighlighterSection />
-        
-          <Iphone15ProDemo size="w-100">
+          <div className="flex flex-col items-center justify-center p-8">
+            <TypingAnimation>PING!🔔 You've got notifications from your friends!</TypingAnimation>
+          </div>
+          <Iphone15ProDemo size="w-95">
             <AnimatedListDemo />
           </Iphone15ProDemo>
+
           <SpinningTextComponent />
         </div>
     </>
