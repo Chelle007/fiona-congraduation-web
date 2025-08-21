@@ -3,6 +3,7 @@ import { AnimatedListDemo } from "@/components/AnimatedListDemo";
 import { Iphone15ProDemo } from "@/components/Iphone15ProDemo";
 import ConfettiOnScroll from "@/components/ConfettiOnScroll";
 import { ScratchImage } from "@/components/ScratchImage";
+import { HighlighterSection } from "@/components/HighlighterSection";
 
 export default function Page() {
   return (
@@ -16,6 +17,7 @@ export default function Page() {
       </TextReveal>
       <ConfettiOnScroll />
       <ScratchImage />
+      <HighlighterSection />
       <Iphone15ProDemo size="w-100">
         <AnimatedListDemo />
       </Iphone15ProDemo>
