@@ -1,8 +1,14 @@
-// import Marquee3D from "@/components/Marquee3D";
+import { TextReveal } from "@/components/magicui/text-reveal";
+
 export default function Page() {
   return (
     <>
-      {/* <Marquee3D /> */}
+      <TextReveal>
+        Congraduation Fiona!!!
+      </TextReveal>
+      <TextReveal>
+        22nd Aug 2025
+      </TextReveal>
     </>
   );
 }
