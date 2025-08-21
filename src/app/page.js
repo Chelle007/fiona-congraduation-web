@@ -13,7 +13,6 @@ export default function Page() {
       <TextReveal>
         The day is today.. 🗓️ 22nd Aug 2025
       </TextReveal>
-
       <Iphone15ProDemo size="w-100">
         <AnimatedListDemo />
       </Iphone15ProDemo>
