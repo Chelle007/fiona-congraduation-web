@@ -4,7 +4,7 @@ import { Iphone15ProDemo } from "@/components/Iphone15ProDemo";
 import ConfettiOnScroll from "@/components/ConfettiOnScroll";
 import { ScratchImage } from "@/components/ScratchImage";
 import { HighlighterSection } from "@/components/HighlighterSection";
-import { SpinningText } from "@/components/magicui/spinning-text";
+import { SpinningTextComponent } from "@/components/SpinningTextComponent";
 
 export default function Page() {
   return (
@@ -22,6 +22,7 @@ export default function Page() {
       <Iphone15ProDemo size="w-100">
         <AnimatedListDemo />
       </Iphone15ProDemo>
+      <SpinningTextComponent />
     </>
   );
 }
