@@ -7,29 +7,31 @@ import { HighlighterSection } from "@/components/HighlighterSection";
 import { SpinningTextComponent } from "@/components/SpinningTextComponent";
 import { RickRollButton } from "@/components/RickRollButton";
 import Footer from "@/components/Footer";
+import { WarpBackground } from "@/components/magicui/warp-background";
 
 export default function Page() {
   return (
     <>
-      <TextReveal>
-        OMG!!! 👩🏻‍🎓Congraduation Fiona!!!🎊
-      </TextReveal>
-      <ConfettiOnScroll />
-      <TextReveal>
-        The day is today.. 🗓️ 22nd Aug 2025
-      </TextReveal>
-      <ConfettiOnScroll />
+      <WarpBackground />
+        <div className="relative z-10">
+          <TextReveal>
+            OMG!!! 👩🏻‍🎓Congraduation Fiona!!!🎊
+          </TextReveal>
+          <ConfettiOnScroll />
+          <TextReveal>
+            The day is today.. 🗓️ 22nd Aug 2025
+          </TextReveal>
+          <ConfettiOnScroll />
 
-      <ScratchImage />
+          <ScratchImage />
 
-      <HighlighterSection />
-    
-      <Iphone15ProDemo size="w-100">
-        <AnimatedListDemo />
-      </Iphone15ProDemo>
-      <RickRollButton />
-      <SpinningTextComponent />
-      <Footer />
+          <HighlighterSection />
+        
+          <Iphone15ProDemo size="w-100">
+            <AnimatedListDemo />
+          </Iphone15ProDemo>
+          <SpinningTextComponent />
+        </div>
     </>
   );
 }
