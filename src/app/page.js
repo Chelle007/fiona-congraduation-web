@@ -28,15 +28,19 @@ export default function Page() {
 
         <ScratchImage />
 
-          <HighlighterSection />
-          <div className="flex flex-col items-center justify-center p-8">
-            <TypingAnimation>PING!🔔 You've got notifications from your friends!</TypingAnimation>
-          </div>
-          <Iphone15ProDemo size="w-95">
-            <AnimatedListDemo />
-          </Iphone15ProDemo>
+        <HighlighterSection />
+        <div className="flex flex-col items-center justify-center p-8">
+          <TypingAnimation>PING!🔔 You've got notifications from your friends!</TypingAnimation>
+        </div>
+        <Iphone15ProDemo size="w-95">
+          <AnimatedListDemo />
+        </Iphone15ProDemo>
 
-          <SpinningTextComponent />
+        <RickRollButton />
+
+        <SpinningTextComponent />
+
+        <Footer />
         </div>
     </>
   );
