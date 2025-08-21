@@ -8,11 +8,13 @@ import { SpinningTextComponent } from "@/components/SpinningTextComponent";
 import { RickRollButton } from "@/components/RickRollButton";
 import Footer from "@/components/Footer";
 import { WarpBackground } from "@/components/magicui/warp-background";
+import { AnimatedGridPattern } from "@/components/magicui/animated-grid-pattern";
+import { Ripple } from "@/components/magicui/ripple";
 
 export default function Page() {
   return (
     <>
-      <WarpBackground />
+      <Ripple />
       <div className="relative z-10">
         <TextReveal>
           OMG!!! 👩🏻‍🎓Congraduation Fiona!!!🎊
