@@ -16,8 +16,11 @@ export default function Page() {
         The day is today.. 🗓️ 22nd Aug 2025
       </TextReveal>
       <ConfettiOnScroll />
+
       <ScratchImage />
+
       <HighlighterSection />
+      
       <Iphone15ProDemo size="w-100">
         <AnimatedListDemo />
       </Iphone15ProDemo>
