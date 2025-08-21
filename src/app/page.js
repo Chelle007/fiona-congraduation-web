@@ -13,25 +13,28 @@ export default function Page() {
   return (
     <>
       <WarpBackground />
-        <div className="relative z-10">
-          <TextReveal>
-            OMG!!! 👩🏻‍🎓Congraduation Fiona!!!🎊
-          </TextReveal>
-          <ConfettiOnScroll />
-          <TextReveal>
-            The day is today.. 🗓️ 22nd Aug 2025
-          </TextReveal>
-          <ConfettiOnScroll />
+      <div className="relative z-10">
+        <TextReveal>
+          OMG!!! 👩🏻‍🎓Congraduation Fiona!!!🎊
+        </TextReveal>
+        <ConfettiOnScroll />
+        <TextReveal>
+          The day is today.. 🗓️ 22nd Aug 2025
+        </TextReveal>
+        <ConfettiOnScroll />
 
-          <ScratchImage />
+        <ScratchImage />
 
-          <HighlighterSection />
-        
-          <Iphone15ProDemo size="w-100">
-            <AnimatedListDemo />
-          </Iphone15ProDemo>
-          <SpinningTextComponent />
-        </div>
+        <HighlighterSection />
+      
+        <Iphone15ProDemo size="w-100">
+          <AnimatedListDemo />
+        </Iphone15ProDemo>
+
+        <RickRollButton />
+        <SpinningTextComponent />
+      <Footer />
+      </div>
     </>
   );
 }
