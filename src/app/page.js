@@ -5,6 +5,8 @@ import ConfettiOnScroll from "@/components/ConfettiOnScroll";
 import { ScratchImage } from "@/components/ScratchImage";
 import { HighlighterSection } from "@/components/HighlighterSection";
 import { SpinningTextComponent } from "@/components/SpinningTextComponent";
+import { RickRollButton } from "@/components/RickRollButton";
+import Footer from "@/components/Footer";
 import { WarpBackground } from "@/components/magicui/warp-background";
 import { AnimatedGridPattern } from "@/components/magicui/animated-grid-pattern";
 import { Ripple } from "@/components/magicui/ripple";
@@ -14,17 +16,17 @@ export default function Page() {
   return (
     <>
       <Ripple />
-        <div className="relative z-10">
-          <TextReveal>
-            OMG!!! 👩🏻‍🎓Congraduation Fiona!!!🎊
-          </TextReveal>
-          <ConfettiOnScroll />
-          <TextReveal>
-            The day is today.. 🗓️ 22nd Aug 2025
-          </TextReveal>
-          <ConfettiOnScroll />
+      <div className="relative z-10">
+        <TextReveal>
+          OMG!!! 👩🏻‍🎓Congraduation Fiona!!!🎊
+        </TextReveal>
+        <ConfettiOnScroll />
+        <TextReveal>
+          The day is today.. 🗓️ 22nd Aug 2025
+        </TextReveal>
+        <ConfettiOnScroll />
 
-          <ScratchImage />
+        <ScratchImage />
 
           <HighlighterSection />
           <div className="flex flex-col items-center justify-center p-8">
