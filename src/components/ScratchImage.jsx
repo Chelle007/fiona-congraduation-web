@@ -5,7 +5,7 @@ import fionaImg from "@/assets/images/fiona.jpg";
 
 export function ScratchImage() {
     return (
-        <div className="flex flex-col items-center justify-center my-64">
+        <div className="flex flex-col items-center justify-center h-screen">
             <ScratchToReveal
                 width={300}
                 height={300}
