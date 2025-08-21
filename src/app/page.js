@@ -1,14 +1,16 @@
 import { TextReveal } from "@/components/magicui/text-reveal";
+import ConfettiOnScroll from "@/components/ConfettiOnScroll";
 
 export default function Page() {
   return (
     <>
       <TextReveal>
-        Congraduation Fiona!!!
+        OMG!!! 👩🏻‍🎓Congraduation Fiona!!!🎊
       </TextReveal>
       <TextReveal>
-        22nd Aug 2025
+        The day is today.. 🗓️ 22nd Aug 2025
       </TextReveal>
+      <ConfettiOnScroll />
     </>
   );
 }
