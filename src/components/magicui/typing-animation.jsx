@@ -6,10 +6,10 @@ import { useEffect, useRef, useState } from "react";
 export function TypingAnimation({
   children,
   className,
-  duration = 100,
+  duration = 30,
   delay = 0,
   as: Component = "div",
-  startOnView = false,
+  startOnView = true,
   ...props
 }) {
   const MotionComponent = motion.create(Component, {
