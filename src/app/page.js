@@ -2,8 +2,8 @@ import { TextReveal } from "@/components/magicui/text-reveal";
 import { AnimatedListDemo } from "@/components/AnimatedListDemo";
 import { Iphone15ProDemo } from "@/components/Iphone15ProDemo";
 import ConfettiOnScroll from "@/components/ConfettiOnScroll";
-import { HighlighterSection } from "@/components/HighlighterSection";
 import { ScratchImage } from "@/components/ScratchImage";
+import { HighlighterSection } from "@/components/HighlighterSection";
 
 export default function Page() {
   return (
@@ -20,7 +20,7 @@ export default function Page() {
       <ScratchImage />
 
       <HighlighterSection />
-      
+    
       <Iphone15ProDemo size="w-100">
         <AnimatedListDemo />
       </Iphone15ProDemo>
