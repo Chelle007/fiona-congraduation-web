@@ -1,4 +1,6 @@
 import { TextReveal } from "@/components/magicui/text-reveal";
+import { AnimatedListDemo } from "@/components/AnimatedListDemo";
+import { Iphone15ProDemo } from "@/components/Iphone15ProDemo";
 import ConfettiOnScroll from "@/components/ConfettiOnScroll";
 import { AnimatedListDemo } from "@/components/AnimatedListDemo";
 import { Iphone15ProDemo } from "@/components/Iphone15ProDemo";
