@@ -1,17 +1,23 @@
-# 🎓 Congratulations, Fiona! 🎓
+# 🎓 Graduation Congrats Portal
 
-This is a special graduation gift for our dear friend, **Fiona Teo**, from **Michelle and Desmond**. We're so proud of all your hard work and accomplishments! This little website is a celebration of you and your amazing achievement.
+This is a special graduation gift for our dear friend, **Fiona**, from **Michelle and Desmond**. This little website is a celebration of you and your amazing achievement.
+
+## 🔄 Data Flow
+
+This is how the congratulatory messages get from friends to the website:
+
+*   Google Form → Friends submit their messages (Name, Message, maybe Photo URL).
+*   Google Sheets → Automatically stores all the responses.
+*   Next.js Backend → Reads the Google Sheets data.
+*   Frontend UI → Maps over the messages and displays them as animated cards or sticky notes.
 
 ## ✨ Features ✨
 
 This website is packed with love, memories, and a little bit of magic:
 
-*   **A Personal Welcome:** A special message just for you.
-*   **Interactive Scratch Card:** Scratch to reveal a surprise image!
-*   **Messages from Friends:** Heartfelt congratulations and well wishes from your friends, delivered in a fun, animated way.
-*   **Magic UI:** The website is brought to life with beautiful animations and effects from [Magic UI](https://magicui.design/).
-*   **A Touch of Humor:** Because what's a celebration without a little fun? (We couldn't resist the RickRoll button!)
-*   **And more!** Explore the site to find all the little surprises we've hidden for you.
+*   **A Personal Welcome:**
+*   **Interactive Scratch Card:**
+*   **Messages from Friends:** Heartfelt congratulations and well wishes from Google Form https://forms.gle/pR6g6gfAzc555oqA6
 
 ## 🛠️ Made With 🛠️
 
@@ -21,6 +27,7 @@ This project was built with:
 *   [React](https://reactjs.org/)
 *   [Tailwind CSS](https://tailwindcss.com/)
 *   [Magic UI](https://magicui.design/)
+*   [Google Workspace](https://forms.gle/pR6g6gfAzc555oqA6)
 
 ## 🚀 Getting Started
 
@@ -39,16 +46,3 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-## 部署到 Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
----
-
-We hope you love your gift, Fiona! Wishing you all the best for your future adventures.
-
-With love,
-Michelle and Desmond ♥️
