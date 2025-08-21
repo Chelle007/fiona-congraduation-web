@@ -4,6 +4,7 @@ import { Iphone15ProDemo } from "@/components/Iphone15ProDemo";
 import ConfettiOnScroll from "@/components/ConfettiOnScroll";
 import { ScratchImage } from "@/components/ScratchImage";
 import { HighlighterSection } from "@/components/HighlighterSection";
+import { SpinningText } from "@/components/magicui/spinning-text";
 import { WarpBackground } from "@/components/magicui/warp-background";
 
 export default function Page() {
