@@ -30,9 +30,9 @@ export default function Page() {
 
         <HighlighterSection />
         <div className="flex flex-col items-center justify-center p-8">
-          <TypingAnimation>{"PING!🔔 You've got notifications from your friends!"}</TypingAnimation>
+          <TypingAnimation>{"PING! 10+ notifications 🔔"}</TypingAnimation>
         </div>
-        <Iphone15ProDemo size="w-90">
+        <Iphone15ProDemo size="w-88">
           <AnimatedListDemo />
         </Iphone15ProDemo>
 
