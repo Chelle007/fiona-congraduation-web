@@ -10,7 +10,7 @@ export const Ripple = React.memo(function Ripple({
   ...props
 }) {
   return (
-    <div className={cn("fixed inset-0 w-full h-full overflow-hidden pointer-events-none", className)} {...props}>
+    <div className={cn("fixed inset-0 w-screen h-screen overflow-hidden pointer-events-none", className)} {...props}>
       {Array.from({ length: numCircles }, (_, i) => {
         const size = mainCircleSize + i * 70;
         const opacity = mainCircleOpacity - i * 0.03;
