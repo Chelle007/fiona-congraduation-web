@@ -5,6 +5,7 @@ import ConfettiOnScroll from "@/components/ConfettiOnScroll";
 import { ScratchImage } from "@/components/ScratchImage";
 import { HighlighterSection } from "@/components/HighlighterSection";
 import { SpinningTextComponent } from "@/components/SpinningTextComponent";
+import Footer from "@/components/Footer";
 
 export default function Page() {
   return (
@@ -26,6 +27,7 @@ export default function Page() {
         <AnimatedListDemo />
       </Iphone15ProDemo>
       <SpinningTextComponent />
+      <Footer />
     </>
   );
 }
