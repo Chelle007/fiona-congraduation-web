@@ -3,16 +3,16 @@ import React from "react";
 import { cn } from "@/lib/utils";
 
 export const Ripple = React.memo(function Ripple({
-  mainCircleSize = 150,
+  mainCircleSize = 120,
   mainCircleOpacity = 0.24,
-  numCircles = 7,
+  numCircles = 6,
   className,
   ...props
 }) {
   return (
     <div className={cn("fixed inset-0 w-screen h-screen overflow-hidden pointer-events-none", className)} {...props}>
       {Array.from({ length: numCircles }, (_, i) => {
-        const size = mainCircleSize + i * 70;
+        const size = mainCircleSize + i * 50;
         const opacity = mainCircleOpacity - i * 0.03;
         const animationDelay = `${i * 0.06}s`;
         const borderStyle = "solid";
