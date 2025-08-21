@@ -8,7 +8,7 @@ import { SpinningTextComponent } from "@/components/SpinningTextComponent";
 
 export default function Page() {
   return (
-    <div className="overflow-hidden">
+    <>
       <TextReveal>
         OMG!!! 👩🏻‍🎓Congraduation Fiona!!!🎊
       </TextReveal>
@@ -26,6 +26,6 @@ export default function Page() {
         <AnimatedListDemo />
       </Iphone15ProDemo>
       <SpinningTextComponent />
-    </div>
+    </>
   );
 }
