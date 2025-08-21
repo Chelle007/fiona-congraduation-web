@@ -32,7 +32,7 @@ export default function Page() {
         <div className="flex flex-col items-center justify-center p-8">
           <TypingAnimation>{"PING!🔔 You've got notifications from your friends!"}</TypingAnimation>
         </div>
-        <Iphone15ProDemo size="w-95">
+        <Iphone15ProDemo size="w-90">
           <AnimatedListDemo />
         </Iphone15ProDemo>
 
